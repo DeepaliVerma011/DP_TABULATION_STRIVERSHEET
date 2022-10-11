@@ -2,7 +2,7 @@ package JumpVariations;
 
 public class ClimbStairs_MinimumMoves {
     public static void main(String[] args){
-        int[] arr={3,3,0,2,1,2,4,2,0,0};
+        int[] arr={1,3,5,8,9,2,6,7,6,8,9};
         int ans=findans(arr);
         System.out.println("The minimum moves to reach the end are"+ ans);
     }
